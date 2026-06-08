@@ -22,6 +22,7 @@ from django.db.models.query import QuerySet, ValuesIterable
 from django.db.models.utils import create_namedtuple_class
 from django.utils.tree import Node
 
+from modeltranslation import _django_version
 from modeltranslation.fields import TranslationField
 from modeltranslation.thread_context import auto_populate_mode
 from modeltranslation.utils import (
